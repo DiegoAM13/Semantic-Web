@@ -1,0 +1,96 @@
+/* Reset estilos */ 
+* { 
+margin: 0; 
+padding: 0; 
+box-sizing: border-box; 
+} 
+/* Estilos generales */ 
+body { 
+font-family: 'Arial', sans-serif; 
+color: #333; 
+background-color: #f4f4f9; 
+line-height: 1.6; 
+} 
+/* Estilo del encabezado */ 
+header { 
+background: #4a90e2; 
+color: #fff; 
+padding: 20px; 
+text-align: center; 
+} 
+header h1 { 
+font-size: 2.5rem; 
+} 
+header p { 
+font-size: 1.2rem; 
+} 
+/* Menú de navegación */ 
+nav ul { 
+list-style: none; 
+display: flex; 
+justify-content: center; 
+padding: 10px; 
+} 
+nav ul li { 
+margin: 0 15px; 
+} 
+nav ul li a { 
+color: #fff; 
+text-decoration: none; 
+font-size: 1.2rem; 
+transition: color 0.3s ease-in-out; 
+} 
+nav ul li a:hover { 
+color: #ffdd57; 
+} 
+
+/* Contenido principal */ 
+main { 
+padding: 20px; 
+background-color: #fff; 
+} 
+#teoria-del-color { 
+margin-bottom: 30px; 
+text-align: center; 
+} 
+#visualizacion-de-color { 
+display: flex; 
+justify-content: space-around; 
+text-align: center; 
+} 
+.color-box { 
+width: 150px; 
+height: 150px; 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+color: #fff; 
+font-size: 1.2rem; 
+border-radius: 10px; 
+} 
+.colores-calidos { 
+background-color: #e94e77; /* Color cálido */ 
+} 
+.colores-frios { 
+background-color: #4a90e2; /* Color frío */ 
+} 
+.colores-neutros { 
+background-color: #8c8c8c; /* Color neutro */ 
+} 
+/* Selector de color interactivo */ 
+#interactivo { 
+text-align: center; 
+margin-top: 40px; 
+} 
+#colorPicker { 
+padding: 10px; 
+margin-bottom: 20px; 
+} 
+/* Estilos del pie de página */ 
+footer { 
+background: #333; 
+color: #fff; 
+padding: 10px; 
+text-align: center; 
+} 
+

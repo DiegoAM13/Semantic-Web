@@ -1,0 +1,17 @@
+
+[ 
+    { 
+        "name": "Concierto de Aranjuez", 
+        "artist": "Joaquín Rodrigo", 
+        "genre": "Clásica", 
+        "releaseDate": "1996-09-25", 
+        "cover": "https://example.com/aranjuez.jpg" 
+    }, 
+    { 
+        "name": "Abbey Road", 
+        "artist": "The Beatles", 
+        "genre": "Rock", 
+        "releaseDate": "1969-09-26", 
+        "cover": "https://example.com/abbeyroad.jpg" 
+    } 
+] 

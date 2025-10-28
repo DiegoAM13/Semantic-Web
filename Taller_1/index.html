@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" prefix="schema: http://schema.org/">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de libros web</title>
+    <link rel="stylesheet" href="Style/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Tienda de Libros</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Libros</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="book-list">
+            <article vocab="http://schema.org/" typeof="Book" >
+                <h2 property="name">Aprendiendo web semantica</h2>
+                <p><strong>Autor:</strong> <span property="author">Juan Perez</span></p>
+                <p><strong>ISBN:</strong> <span property="isbn">978-3-16-148410-0</span></p>
+                <p property="description">Un libro detallado sobre los conceptos y aplicaciones de la Web Semántica.</p> 
+                <button onclick="addToCart('Aprendiendo Web Semántica')">Agregar al Carrito</button>
+            </article>
+            <article vocab="http://schema.org/" typeof="Book">
+                <h2 property="name">XML para principiantes</h2>
+                <p><strong>Autor:</strong> <span property="author">María Gómez</span></p> 
+                 <p><strong>ISBN:</strong> <span property="isbn">978-1-23-456789-0</span></p> 
+                <p property="description">Guía esencial para aprender a utilizar XML en tus proyectos web.</p> 
+                <button onclick="addToCart('XML para Principiantes')">Agregar al Carrito</button>
+            </article>
+            <!-- Más libros pueden ser añadidos aquí -->
+        </section> 
+    </main> 
+    
+    <footer>
+        <p>&copy; 2024 Tienda de Libros. Todos los derechos reservados.</p>  
+    </footer>
+
+    <script src="Js/script.js"></script>
+ 
+</body>
+
+</html>
+    

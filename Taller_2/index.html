@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="es" prefix="schema: http://schema.org/"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial
+scale=1.0"> 
+    <title>Tienda de Música Semántica</title> 
+    <link rel="stylesheet" href="styles.css"> 
+    <script type="application/ld+json"> 
+    { 
+        "@context": "http://schema.org", 
+        "@type": "MusicStore", 
+        "name": "Tienda de Música Semántica", 
+        "description": "Una tienda en línea con una vasta colección de 
+álbumes de música.", 
+        "url": "https://www.tiendamusicasemantica.com", 
+        "address": { 
+            "@type": "PostalAddress", 
+            "streetAddress": "Calle 123", 
+            "addressLocality": "Ciudad", 
+            "addressRegion": "Estado", 
+            "postalCode": "12345", 
+            "addressCountry": "ES" 
+        } 
+    } 
+    </script> 
+</head> 
+<body> 
+    <header> 
+        <h1>Tienda de Música Semántica</h1> 
+        <nav> 
+            <ul> 
+                <li><a href="#">Inicio</a></li> 
+                <li><a href="#">Álbumes</a></li> 
+                <li><a href="#">Artistas</a></li> 
+                <li><a href="#">Contacto</a></li> 
+            </ul> 
+        </nav> 
+    </header> 
+ 
+    <main> 
+        <section class="album-list" id="album-list"> 
+            <!-- Los álbumes se cargarán aquí dinámicamente --> 
+        </section> 
+    </main> 
+ 
+    <footer> 
+        <p>&copy; 2024 Tienda de Música Semántica. Todos los derechos 
+reservados.</p> 
+    </footer> 
+ 
+    <script src="script.js"></script> 
+</body> 
+</html> 
